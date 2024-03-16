@@ -58,3 +58,11 @@
   font-size: 3rem;
   margin-bottom: 20px;
 }
+
+
+@media (max-width: 1120px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  
+}
