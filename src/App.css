@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+.btn{
+  border-radius: 1rem !important;
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  font-weight:600;
+  font-style: normal;
+}
+
+/* Estilos generales de la barra de desplazamiento */
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-button:increment,
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  border: 1px solid #CCCCCC;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #CCCCCC;
+  border-radius: 20px;
+  height: 5px;
+  margin: 2px;
+}
+
+/* Estilos generales de la barra de desplazamiento en Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #CCCCCC #f1f1f1;
+}
+
+*::-moz-scrollbar-thumb {
+  background-color: #CCCCCC;
+}
+
+*::-moz-scrollbar-track {
+  background-color: #f1f1f1;
+}
