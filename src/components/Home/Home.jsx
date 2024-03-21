@@ -280,17 +280,6 @@ export const Home = () => {
         </div>
       </section>
       <Footer/>
-      {/* <Modal
-        title={"Alerta, persona localizada"}
-        name={userName}
-        show={showModal}
-        handleClose={handleCloseModal}
-      /> */}
-      {/* <div className="wrapper">
-        <div className="card card-wrapper rounded-4 p-3">
-          <Historic historial={historial} />
-        </div>
-      </div> */}
     </>
   );
 };

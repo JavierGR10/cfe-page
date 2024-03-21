@@ -1,7 +1,7 @@
 
 # Circuitos-cfe
 
-Demo created using React + Vite and Bootstrap 5
+Page created using React + Vite and Bootstrap 5
 
 
 ## Run Locally
