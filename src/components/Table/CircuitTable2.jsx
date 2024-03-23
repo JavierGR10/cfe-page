@@ -3,7 +3,7 @@ import distributionData from "../../assets/js/data";
 import selectData from "../../assets/js/selectData";
 import { Map } from "../Map/Map";
 
-export const CircuitTable = () => {
+export const CircuitTable2 = () => {
   const [selectedZone, setSelectedZone] = useState("ZONA CHAPALA");
   const [selectedCircuit, setSelectedCircuit] = useState("");
   const [selectedNode, setSelectedNode] = useState("");

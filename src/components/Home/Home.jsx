@@ -1,8 +1,8 @@
 import React from "react";
 import Footer from "../Footer/Footer";
 import { Navbar } from "../Navbar/Navbar";
-import { CircuitTable } from "../Table/CircuitTable";
 import "./home.css";
+import { CircuitTable } from "../Table/CircuitTable";
 
 export const Home = () => {
   return (
@@ -20,7 +20,7 @@ export const Home = () => {
         </div>
         <div className="container-fluid px-5 py-4 min-vh-100">
           <div className="row">
-            <CircuitTable />
+            <CircuitTable/>
           </div>
         </div>
       </section>
