@@ -5,6 +5,11 @@
   /* padding-top: 4rem; */
 }
 
+.vh-40{
+  height: 40vh;
+  max-height: 40vh;
+}
+
 .wrapper-flex{
   display: flex;
   justify-content: center;
